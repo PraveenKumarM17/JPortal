@@ -16,3 +16,16 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </ClerkProvider>
 )
+
+
+// feat      -> New feature
+// fix       -> Bug fix
+// docs      -> Documentation
+// style     -> Formatting (no logic change)
+// refactor  -> Code cleanup
+// perf      -> Performance improvement
+// test      -> Tests
+// build     -> Build system
+// ci        -> CI/CD
+// chore     -> Maintenance
+// revert    -> Revert a commit
