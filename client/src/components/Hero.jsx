@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useRef } from 'react'
 import { assets } from '../assets/assets'
 import { AppContext } from '../context/AppContext'
 
@@ -35,7 +35,7 @@ const Hero = () => {
                 ref={ locationRef }
                 />
             </div>
-            <button onClick={ onSearch } className='bg-blue-600 px-6 py-2 rounded text-white m-1'>Search</button>
+            <button type='button' onClick={ onSearch } className='bg-blue-600 px-6 py-2 rounded text-white m-1 cursor-pointer'>Search</button>
         </div>
       </div>
       <div className='border border-gray-300 shadow-md mx-2 mt-5 p-6 rounded-md flex'>
